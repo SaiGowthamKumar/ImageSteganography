@@ -33,7 +33,7 @@ def save():
     secret.save("E://hidden.png")
 
 
-image_icon = PhotoImage(file="speak.png")
+image_icon = PhotoImage(file="stegano.png")
 root.iconphoto(False, image_icon)
 logo = PhotoImage(file="stegano.png")
 Label(root, image=logo, bg="#2f4155",width=340, height=100).place(x=10, y=10)
